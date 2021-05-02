@@ -1,0 +1,24 @@
+.slideRight{
+    animation:slideRight 1s ease;
+}
+@keyframes slideRight{
+
+    0%{
+        transform: translateX(250px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    }
+    .slideLeft{
+        animation:slideLeft 1s ease;
+    }
+    @keyframes slideLeft{
+    
+        0%{
+            transform: translateX(-250px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+        }

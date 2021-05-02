@@ -26,3 +26,29 @@ margin-bottom: 200px;
     .blogs1{
         height: 700px;
     }
+    .slideUp{
+        animation: slideUp 1s ease;
+    }
+
+    @keyframes slideUp{
+
+        0%{
+            transform: translateY(-200px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+        }
+        .slideIn{
+            animation: slideIp 1s ease;
+        }
+    
+        @keyframes slideIp{
+    
+            0%{
+                transform: translateY(200px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+            }
