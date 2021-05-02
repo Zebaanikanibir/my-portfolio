@@ -1,0 +1,31 @@
+.span{
+    background-color:transparent;
+   padding:10px;
+    color:white;
+    border-radius: 5px;
+    margin-left: 2px;
+    border: 2px solid blue;
+}
+.wedding{
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url('../../images/laptop.jpg'); 
+    background-position:center;
+    background-size: cover;
+}
+#button{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid blue;
+    background: rgba(11, 164, 253, 0.534);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.pHead{
+    color:rgb(123, 186, 238);
+    border-bottom: 2px solid white;
+}

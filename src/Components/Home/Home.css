@@ -1,0 +1,28 @@
+.home{
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url('../../images/PicsArt_12-05-08.11.54.jpg'); 
+    background-position:center;
+    background-size: cover;
+}
+.hDiv{
+margin-top: 200px;
+margin-bottom: 200px;
+}
+.button{
+
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid blue;
+    background: rgba(7, 163, 253, 0.493);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    }
+
+    .blogs1{
+        height: 700px;
+    }

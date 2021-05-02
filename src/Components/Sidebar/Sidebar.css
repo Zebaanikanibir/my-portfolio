@@ -1,0 +1,43 @@
+.Sidebar{
+    height:100%;
+    width: 100%;
+    background-color:transparent;
+}
+.list1{
+   display: block;
+}
+.side{
+    margin-top:100px;
+}
+.nav1{
+    font-size: 15px;
+    font-weight: 700;
+    color:white;
+}
+.nav1:hover{
+    color:rgb(100, 182, 237); ;
+}
+.side1{
+    color: rgb(100, 194, 237);
+    font-weight: 700;
+    margin-top: 80px;
+}
+#img1{
+    width: 700px;
+    height: 400px;
+}
+#img2{
+    width: 500px;
+}
+#img3{
+    width: 400px;
+    height: 300px;
+}
+.name{
+    color: rgb(0, 162, 255);
+    font-weight: 800;
+}
+.blog{
+    width: 600px;
+    margin: auto;
+}
