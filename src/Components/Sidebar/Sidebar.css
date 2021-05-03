@@ -12,10 +12,11 @@
 .nav1{
     font-size: 15px;
     font-weight: 700;
+    padding: 15px;
     color:white;
 }
 .nav1:hover{
-    color:rgb(100, 182, 237); ;
+    color: blue;
 }
 .side1{
     color: rgb(100, 194, 237);
@@ -37,7 +38,7 @@
     color: rgb(0, 162, 255);
     font-weight: 800;
 }
-.blog{
-    width: 600px;
-    margin: auto;
+
+.but{
+    color: white;
 }

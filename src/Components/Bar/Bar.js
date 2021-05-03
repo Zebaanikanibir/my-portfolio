@@ -4,7 +4,7 @@ const Bar = () => {
     return (
         
             <div className="bheight">
-                <h2 className="pHead mt-5">SKILLS</h2>
+                <h2 className="pHead mt-5 animate__animated animate__bounce">SKILLS</h2>
                 <div className="row skills container-fluid">
                
                <div className="col-md-6">

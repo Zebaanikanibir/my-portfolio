@@ -14,8 +14,8 @@ const Journey = () => {
                 <Sidebar></Sidebar>
             </div>
             <div className="col-md-9">
-                <h2 className="pHead mt-5">Enjoy Journey</h2>
-                <h6 className="text-white">It is a Transportation base website.An user can choose vehicle and by clicking on them 
+                <h2 className="pHead mt-5 dtext">ENJOY JOURNEY </h2>
+                <h6 className="text-white sright">It is a Transportation base website.An user can choose vehicle and by clicking on them 
                     </h6>
                     <h6 className="text-white">he/she
                     can go his desire location.</h6>
@@ -25,8 +25,8 @@ const Journey = () => {
                  <h6 className="mt-5"><span className="span">React js</span> </h6>
                     
                     
-                <a target="_blank" href="https://assignment-9-2b49a.web.app/"><button id="button">Visit</button></a>
-                    <div className="row image mt-5 mb-5">
+                <a target="_blank" href="https://assignment-9-2b49a.web.app/"><button id="button" className="slidein">Visit</button></a>
+                    <div className="row image mt-2 mb-5">
                     <div className="col-md-3">
                         <img id="img1" src={img4} alt="" />
                     </div>

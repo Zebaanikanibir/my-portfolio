@@ -28,4 +28,43 @@
 .pHead{
     color:rgb(123, 186, 238);
     border-bottom: 2px solid white;
+
 }
+.dtext{
+    animation: type 3s steps(55);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes type {
+    0% {width: 0ch;
+    }
+    100%{
+        width: 55ch;
+    }
+}
+
+.sright{
+    animation: sright 3s ease;
+}
+@keyframes sright{
+
+    0%{
+        transform: translateX(250px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    }
+    .slidein{
+        animation: slidein 3s ease;
+    }
+
+    @keyframes slidein{
+    
+        0%{
+            transform: translateY(200px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+        }

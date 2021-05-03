@@ -16,8 +16,8 @@ const Wedding = () => {
                 <Sidebar></Sidebar>
             </div>
             <div className="col-md-9">
-            <h2 className="pHead mt-5">DESTINATION WEDDING</h2>
-                <h6 className="text-white mt-5">It is a wedding base website. In this website admin can add or remove services.After login an
+            <h2 className="pHead mt-5 dtext">DESTINATION WEDDING</h2>
+                <h6 className="text-white mt-5 sright">It is a wedding base website. In this website admin can add or remove services.After login an
                     user can book any service besides can pay by stripe.User also can add review.</h6>
                  <h6 className="mt-5"> 
                  <span className="span">React Bootstrap</span> <span className="span">React Authentication</span>
@@ -25,9 +25,9 @@ const Wedding = () => {
                  <h6 className="mt-5"><span className="span">React js</span><span className="span">Node js</span> <span className="span">Express js</span> <span className="span">Mongo
                     db</span></h6>
                     
-                    <a target="_blank" href="https://assignment-11-92bb8.web.app/"><button id="button">Visit</button></a>
+                    <a target="_blank" href="https://assignment-11-92bb8.web.app/"><button id="button" className="slidein">Visit</button></a>
                     
-                <div className="row image mt-5 mb-5">
+                <div className="row image mt-2 mb-5">
                     <div className="col-md-3">
                         <img id="img1" src={img1} alt="" />
                     </div>

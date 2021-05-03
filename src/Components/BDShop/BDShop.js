@@ -14,16 +14,16 @@ const BDShop = () => {
                     <Sidebar></Sidebar>
                 </div>
                 <div className="col-md-9">
-                    <h2 className="pHead mt-5">BD SHOP</h2>
-                    <h6 className="text-white">It is a e-commerce site. By clicking one products user go to the checkout page after login.and
+                    <h2 className="pHead mt-5 dtext">BD SHOP</h2>
+                    <h6 className="text-white sright">It is a e-commerce site. By clicking one products user go to the checkout page after login.and
                         from the checkout page he/she can buy the product.</h6>
                         <h6 className="mt-5"> 
                  <span className="span">React Bootstrap</span> <span className="span">React Authentication</span>
                   <span className="span">React Router Dom</span> </h6>
                  <h6 className="mt-5"><span className="span">React js</span><span className="span">Node js</span> <span className="span">Express js</span> <span className="span">Mongo
                     db</span></h6>
-                    <a target="_blank" href="https://assignment-10-a8eff.web.app/"><button id="button">Visti</button></a>
-                    <div className="row image mt-5 mb-5">
+                    <a target="_blank" href="https://assignment-10-a8eff.web.app/"><button id="button" className="slidein">Visti</button></a>
+                    <div className="row image mt-2 mb-5">
                         <div className="col-md-3">
                             <img id="img1" src={img4} alt="" />
                         </div>

@@ -19,15 +19,17 @@ export default function Contact() {
     return (
         <div className="wedding">
             <Header></Header>
-            <div>
+            <div className="row container-fluid">
+                <div className="col-md-12 Div">
                 <h2 className="pHead">CONNECT WITH ME</h2>
                 <form className="contact-form" onSubmit={sendEmail}>
                     <input type="hidden" name="contact_number" />
                     <input className="icontrol" placeholder="Your Name" type="text" name="user_name" /> <br/>
-                    <input placeholder="Your Email" className="icontrol" type="email" name="user_email" /> <br/>
+                    <input placeholder="Your Email" className="icontrol" type="email" name="email" /> <br/>
                     <textarea placeholder="Your Message" className="icontrol mess" name="message" /> <br/>
                    <button className="button" type="submit">Send Message</button>
                 </form>
+                </div>
             </div>
         </div>
     );
