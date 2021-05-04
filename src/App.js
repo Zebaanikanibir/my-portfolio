@@ -14,6 +14,7 @@ import BDShop from './Components/BDShop/BDShop';
 import Journey from './Components/Journey/Journey'
 import Resume from './Components/Resume/Resume';
 import Contact from './Components/Contact/Contact';
+import Onion from './Components/Onion/Onion';
 function App() {
   return (
     <div className="App">
@@ -48,6 +49,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/onion">
+            <Onion />
           </Route>
         </Switch>
     </Router>
