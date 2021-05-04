@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@barba/core": "^2.9.7",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
@@ -14,11 +15,14 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
+    "gsap": "^3.6.1",
     "react": "^17.0.2",
     "react-anime": "^4.0.4",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-gsap": "^3.2.1",
     "react-icons": "^4.2.0",
+    "react-jquery-plugin": "^1.1.7",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
@@ -46,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "barba.js": "^1.0.0"
   }
 }
