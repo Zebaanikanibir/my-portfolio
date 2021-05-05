@@ -24,7 +24,8 @@ margin-bottom: 200px;
     }
 
     .blogs1{
-        height: 700px;
+        height: 100%;
+        
     }
     .slideUp{
         animation: slideUp 1s ease;
