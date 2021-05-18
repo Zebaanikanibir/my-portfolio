@@ -113,7 +113,7 @@ const Resume = () => {
                 It is all about creativity and
                 creative problem-solving and also that provides many opportunities for hands-on-learning.
                 </h6>
-                <a href="https://drive.google.com/uc?export=download&id=1iyBUtfC2Kymriben7OfCWlY0pt1p5IfP" ><button className="button slideRight">Download Resume <FontAwesomeIcon icon={faArrowDown} /></button></a>
+                <a href="https://drive.google.com/uc?export=download&id=1ts05ImyqH2VuKNV5nNFT_qz7PrMFC8A7" ><button className="button slideRight">Download Resume <FontAwesomeIcon icon={faArrowDown} /></button></a>
                 </div>
             </div>
 
